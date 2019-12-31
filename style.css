@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  margin: 0;
+  background-image:url("grass.jpg"); 
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Black Ops One', cursive;
+  font-family: 'Shojumaru', cursive;
+  overflow: hidden;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  padding: 5%;
+  margin: 2%;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+h2{
+  font-size:800%;
+  font-weight: bold;
+  background-image: url("wood.jpg");
+  -webkit-background-clip: text;  
+  background-clip: text;
+  background-size: cover;
+  color: transparent;
+  filter:drop-shadow(8px 0px 4px black);
+}
+
+h2:hover{
+  margin-bottom: 100px;
+  filter:drop-shadow(8px 0px 4px white);
+}
+
+h2:nth-child(1){
+ animation: text 1s linear;
+}
+h2:nth-child(2){
+ animation: text 2s linear;
+}
+h2:nth-child(3){
+ animation: text 3s linear;
+}
+h2:nth-child(4){
+ animation: text 4s linear;
+}
+h2:nth-child(5){
+ animation: text 5s linear;
+}
+h2:nth-child(6){
+ animation: text 6s linear;
+}
+h2:nth-child(7){
+ animation: text 7s linear;
+}
+h2:nth-child(8){
+ animation: text 8s linear;
+}
+h2:nth-child(9){
+ animation: text 9s linear;
+ margin-left: 100px;
+}
+h2:nth-child(10){
+ animation: text 10s linear;
+}
+
+@keyframes text{
+  0%{opacity: 0;}
+  50%{opacity: 1;}
+}
+
+footer h4{
+  font-size: 120%;
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  left: 2%;
+  filter:drop-shadow(8px 0px 4px black);
+}
